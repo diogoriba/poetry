@@ -1,0 +1,37 @@
+* { font-family: 'Tahoma'; }
+p { margin: 5px; }
+#text {
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	font-size: 90pt;
+}
+#container {
+	width: 100%;
+	height: 100%;
+		
+	/* WebKit (Chrome & Safari) */
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	
+	/* Firefox */
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	
+	/* IE */
+	display: -ms-box;
+	-ms-box-pack: center;
+	-ms-box-align: center;
+	
+	 /* Native CSS */
+	display: box;
+	box-pack: center;
+	box-align: center;
+}
+#footnote {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	text-align: right;
+}
