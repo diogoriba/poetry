@@ -29,9 +29,16 @@ p { margin: 5px; }
 	box-pack: center;
 	box-align: center;
 }
+#progress {
+	color: #cccccc;
+	font-weight: normal;
+	font-size: 18pt;
+	text-align: center;
+}
 #footnote {
+	font-size: 24pt;
 	position: absolute;
-	right: 20px;
-	bottom: 20px;
+	right: 50px;
+	bottom: 50px;
 	text-align: right;
 }
