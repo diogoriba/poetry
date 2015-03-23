@@ -16,8 +16,8 @@ var toSeconds = function (milliseconds) {
 	return Math.floor(milliseconds / 1000);
 };
 
-var start = toSeconds(new Date(2013, 10, 27).getTime()); // why the hell months have 0-based indexes??
-var end = toSeconds(new Date(2013, 11, 21).getTime());
+var start = toSeconds(new Date(2015, 2, 22).getTime()); // why the hell months have 0-based indexes??
+var end = toSeconds(new Date(2015, 3, 11).getTime());
 var wane = makeLinearFadeFunction(start, end);
 
 var waneDOM = function () {
